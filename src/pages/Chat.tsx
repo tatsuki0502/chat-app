@@ -157,7 +157,7 @@ const Chat = () => {
             value={text}
             onChange={(e) => setText(e.target.value)}
             onFocus={() => {
-              bottomRef.current?.scrollIntoView({ behavior: "smooth"});
+              bottomRef.current?.scrollIntoView({ behavior: "smooth"})
             }}
             className="flex-1 border rounded-full px-4 py-2 focus:outline-none"
             placeholder="Type a message..."
