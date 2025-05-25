@@ -12,7 +12,7 @@ const Login = () => {
   };
 
   return (
-    <div className="w-full flex items-center justify-center h-screen bg-gray-100">
+    <div className="w-full flex items-center justify-center h-screen bg-gray-100 px-10">
       <div className="text-center">
         <h1 className="text-4xl text-black font-bold mb-4">Chat App</h1>
         <h3 className=" text-gray-500 font-bold mb-4">Sign in with Google</h3>

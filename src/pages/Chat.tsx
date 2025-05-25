@@ -66,7 +66,7 @@ const Chat = () => {
   };
 
   return (
-    <div className="flex justify-center bg-gray-200 px-4">
+    <div className="flex justify-center bg-gray-200 px-10">
       <div className="w-full sm:max-w-md h-screen flex flex-col bg-white shadow-lg " style={{ height: "100%" }}>
         {/* 🔽 ヘッダー */}
         <div className="flex justify-between items-center p-4 bg-gray-100">
