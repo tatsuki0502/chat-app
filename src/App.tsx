@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "./firebase";
